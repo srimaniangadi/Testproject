@@ -1,0 +1,59 @@
+Linux:-
+
+1.Linux Directory Structure:-
+    1.Linux will keeps all the data in form of files in different locaitons.
+    2.It contains a root directory ->sub-directories->Files.
+Note:- Whenever you installed an operating system you will not see -Drive, Hard Disk. You will see only / or Mount Drive.
+
+Directories:-
+Note:- All the below directories are created under the / Mount Point.
+1. /bin = Whatever the commands you have stored located in binary file.
+Note:- Creating a user, file or a directory everything will be stored in /bin(Which contains all the files for your complete commands)
+2. /boot 
+Note:- In windows machines you can see reserved partitions into the systems.(u can see like windows7,8 and 10) = It contains booting files installed into it by default.
+And also it contains lilo operations system and also grub and grub2
+3. /dev = The directory contains all the device files
+Note:- If you connected a Hard Disk or if you created partition into the hard disk everything will be stored in the devices.
+Even if you connect with usb, cd-drive or dvd drive this will be stored again in devices.
+4. /etc = Configuration files
+Note:- If you configure any ip addresses or servers related it will store in /etc
+5. /Home = It contains all directories of users
+Note:- If i want to create an user that will save in the /home directory. If any user login to the user.
+This is basically only for standard users(Which is non-root or non-super users)
+6. /Lib = It contains all the library files
+Note:- All the parameters of the command will see  in the library.
+7. /media = You can find hot plug-in-play devices automounted over here.
+Note:- It is easier to user to work on the desktop of any of the linux distributor
+8. /mnt
+9. /opt  = Add on applications
+Note:- What ever the optmizes data is present is stored in /opt
+10. /sbin = This super user can use this /sbin for storing its all the binary files and what are the commands is going to be use will be pulled by the Binary cell.
+11. /srv = Service Data = 
+12. /tmp = whatever the temporary files you have store in temp.
+Note:- Once your files get delted your files get flushed out.
+13. /usr = User Programs = Applications, Programs, tools
+14. /var = It contains all the variable files 
+Note:- Variable files or Varibale data are those things we generally change 
+                1.If domain name changes or if ur ip address of your local host ip address changes it automatically replicate or changes into it.
+     So, those data which generally vary which are not constant and that is stored in /var
+15. /root = Basically it is a home directory of the home user. 
+Note:- 1./home contains  standard user directory.
+               2.But root stores complete data in the /root directory.
+16. /proc = Process Information = Process and Progress rate of the RAM.
+17. /lost+found = Misplaced Data = It is a directory which we have all the distributors(which is misplaced) 
+Note:- Misplaced means:- Like which do not have a proper location where it should be stored by default it moves to lost+found.
+
+
+
+
+
+Linux File Management:-
+1.Ordinary Files:- Data, Text or Program Instructions
+2.Special Files:- Files provide acces to hardware such as hard-drive, CD-ROM, modems and ethernet adapters 
+3.Directories:- Store both ordinary and special files.
+
+command:-
+1.pwd = present working directory
+2.Ls =List all the files and directories
+3.Ls -l = List and Long = It gives complete info of the files.
+4.
